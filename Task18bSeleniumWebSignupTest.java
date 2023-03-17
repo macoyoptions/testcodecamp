@@ -26,11 +26,11 @@ public class SeleniumWebSignupTest {
 
         // 4. Click on Signup button to open the Signup page
         driver.findElement(By.xpath("/html/body/div[2]/div/a[2]")).click();
-
+         Thread.sleep(5000);
         // 5. Input username on the username field
-        driver.findElement(By.xpath("/html/body/div[2]/div/div/form/div[1]/div[2]/input")).sendKeys("abiola15678");
+        driver.findElement(By.xpath("/html/body/div[2]/div/div/form/div[1]/div[2]/input")).sendKeys("adedeji");
         // 6. Input email on the email field
-        driver.findElement(By.name("user[email]")).sendKeys("macoyoptions@gmail.com");
+        driver.findElement(By.name("user[email]")).sendKeys("Chinyere@gmail.com");
         // 7. Locate the password field and Input your password on the username field
         driver.findElement(By.name("user[password]")).sendKeys("chinyere");
         // 8. Click on the signup button
@@ -38,6 +38,7 @@ public class SeleniumWebSignupTest {
         Thread.sleep(5000);
         // 9. Click on Maegan on the list page
         driver.findElement(By.xpath("/html/body/div[2]/div[1]/ul/div/div/li[1]/a")).click();
+        Thread.sleep(5000);
         // 10. Search for an item "Using Python with Selenium" and confirm that it is present
         driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/a")).click();
         // 11. Click on Logout
