@@ -1,1 +1,0 @@
-{"uuid":"e80e8763-4078-4c91-baa8-90e1c3ffafd9","name":"FacebookTest","children":["f39e88b6-1e4b-43f3-a1d6-cb01d277d835"],"befores":[],"afters":[{"name":"closeBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1679050551916,"stop":1679050552478}],"start":1679050479996,"stop":1679050552480}
